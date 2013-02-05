@@ -13,6 +13,7 @@ cookbook_paths:
 - $PWD
 recipes:
 - kmachine::kms
+- pivotal_workstation::vlc
 EOF
 
 #- roderik_workstation::bashrc
@@ -22,7 +23,7 @@ EOF
 if [[ -d pivotal_workstation ]]; then
   cd pivotal_workstation && git pull && cd ..
 else
-  git clone https://github.com/roderik/pivotal_workstation.git
+  git clone https://github.com/jeffvincent/pivotal_workstation.git
 fi
 if [[ -d dmg ]]; then
   cd dmg && git pull && cd ..
@@ -32,6 +33,6 @@ fi
 if [[ -d roderik_workstation ]]; then
   cd roderik_workstation && git pull && cd ..
 else
-  git clone https://github.com/roderik/roderik_workstation.git
+  git clone https://github.com/jeffvincent/roderik_workstation.git
 fi
 soloist
