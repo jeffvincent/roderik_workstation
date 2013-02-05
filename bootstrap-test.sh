@@ -12,7 +12,6 @@ cat > soloistrc <<EOF
 cookbook_paths:
 - $PWD
 recipes:
-- kmachine::kms
 - pivotal_workstation::vlc
 EOF
 
