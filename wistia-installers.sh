@@ -59,7 +59,7 @@ EOF
 if [[ -d pivotal_workstation ]]; then
   cd pivotal_workstation && git pull && cd ..
 else
-  git clone https://github.com/roderik/pivotal_workstation.git
+  git clone https://github.com/jeffvincent/pivotal_workstation.git
 fi
 if [[ -d dmg ]]; then
   cd dmg && git pull && cd ..
