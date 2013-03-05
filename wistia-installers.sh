@@ -69,12 +69,7 @@ fi
 if [[ -d roderik_workstation ]]; then
   cd roderik_workstation && git pull && cd ..
 else
-  git clone https://github.com/roderik/roderik_workstation.git
-fi
-if [[ -d oh-my-zsh-chef ]]; then
-  cd oh-my-zsh-chef && git pull && cd ..
-else
-  git clone https://github.com/shingara/oh-my-zsh-chef.git
+  git clone https://github.com/jeffvincent/roderik_workstation.git
 fi
 
 soloist
